@@ -1,0 +1,4 @@
+lima    alta
+callao  alta
+arquipa alta
+cuzco   alta

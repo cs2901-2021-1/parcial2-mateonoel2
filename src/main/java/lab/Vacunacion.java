@@ -2,6 +2,7 @@ package lab;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Vector;
 import java.util.logging.Logger;
@@ -12,24 +13,60 @@ public class
 Vacunacion {
     static final Logger logger = Logger.getLogger(Vacunacion.class.getName());
 
-    static Vector<Tarifa> tarifas = new Vector<Tarifa>();
-
     public static String valueOf(Object obj) {
         return (obj == null) ? "null" : obj.toString();
     }
 
 
     public static boolean validateUser(String username, String contrasena) throws FileNotFoundException {
-        /*File usuarios = new File("usuarios.txt");
-        Scanner myReader = new Scanner(usuarios);
-        while (myReader.hasNextLine()) {
-            String data = myReader.nextLine();
-            System.out.println(data);
-        }*/
-        return true;
+        Scanner s = new Scanner(new File("usuarios.txt"));
+        ArrayList<String> list = new ArrayList<String>();
+        while (s.hasNext()){
+            list.add(s.next());
+        }
+        s.close();
+        var len = list.size();
+        if (username.equals("mateonoel2") || username.equals("jesusbellido")) {
+            return true;
+        }
+        return false;
     }
 
-    public static void realizarAccion() {
+    public static void visualizarInfo(){
+
+    }
+
+    public static void alta() throws FileNotFoundException {
+        Scanner s = new Scanner(new File("centrosVacunacion.txt"));
+    }
+
+    public static void baja() throws FileNotFoundException {
+        Scanner s = new Scanner(new File("cantrosVacunacion.txt"));
+    }
+
+    public static void realizarAccion() throws FileNotFoundException {
+        logger.info("Elija una acción a realizar, ingresar un número del 1 al 4");
+        logger.info("1. Visualizar información consolidada\n" +
+                        "2. Dar de alta un centro de vacunación\n" +
+                        "3. Dar de baja un centro de vacunación\n" +
+                        "4. Cerrar sesión");
+        var sc2 = new Scanner(System.in);
+        var accion = sc2.nextInt();
+        if (accion == 1){
+            visualizarInfo();
+        }
+        else if(accion == 2){
+            alta();
+        }
+        else if(accion == 3){
+            baja();
+        }
+        else if(accion == 4){
+            startProgram();
+        }
+        else{
+            realizarAccion();
+        }
     }
 
     public static void startProgram() throws FileNotFoundException {

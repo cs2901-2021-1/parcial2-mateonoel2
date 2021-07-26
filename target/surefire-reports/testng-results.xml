@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-07T16:22:05 PET" name="lab.SkyalertTest" finished-at="2021-06-07T16:22:05 PET" duration-ms="129">
+  <suite started-at="2021-07-26T15:46:17 PET" name="lab.VacunacionTest" finished-at="2021-07-26T15:46:18 PET" duration-ms="162">
     <groups>
     </groups>
-    <test started-at="2021-06-07T16:22:05 PET" name="Command line test" finished-at="2021-06-07T16:22:05 PET" duration-ms="129">
-      <class name="lab.SkyalertTest">
-        <test-method signature="test01()[pri:0, instance:lab.SkyalertTest@565f390]" started-at="2021-06-07T16:22:05 PET" name="test01" finished-at="2021-06-07T16:22:05 PET" duration-ms="38" status="PASS">
+    <test started-at="2021-07-26T15:46:17 PET" name="Command line test" finished-at="2021-07-26T15:46:18 PET" duration-ms="162">
+      <class name="lab.VacunacionTest">
+        <test-method signature="test01()[pri:0, instance:lab.VacunacionTest@6d5620ce]" started-at="2021-07-26T15:46:17 PET" name="test01" finished-at="2021-07-26T15:46:18 PET" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-      </class> <!-- lab.SkyalertTest -->
+      </class> <!-- lab.VacunacionTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- lab.SkyalertTest -->
+  </suite> <!-- lab.VacunacionTest -->
 </testng-results>

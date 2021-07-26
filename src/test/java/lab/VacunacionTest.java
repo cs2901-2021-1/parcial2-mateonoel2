@@ -12,9 +12,10 @@ public class VacunacionTest {
     static final Logger logger = Logger.getLogger(Vacunacion.class.getName());
 
 
-    @Test(threadPoolSize = 5)
+    @Test(threadPoolSize = 50)
     public void test01() throws IOException, InterruptedException {
-
+        Vacunacion vacunacion = new Vacunacion();
+        Assert.assertEquals(Vacunacion.validateUser("mateonoel2", "1234"), true);
     }
 
 }

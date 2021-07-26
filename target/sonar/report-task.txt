@@ -1,7 +1,7 @@
 organization=cs2901-2021-1
-projectKey=cs2901-2021-1_e1-sec01-examen-parcial-mateonoel2
+projectKey=cs2901-2021-1_parcial2-mateonoel2
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.20746
-dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2021-1_e1-sec01-examen-parcial-mateonoel2
-ceTaskId=AXnoWwjENwbj_J8xQN0p
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXnoWwjENwbj_J8xQN0p
+serverVersion=8.0.0.22079
+dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2021-1_parcial2-mateonoel2
+ceTaskId=AXrkkj2l3f2_oDXfLzBZ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXrkkj2l3f2_oDXfLzBZ
