@@ -37,11 +37,11 @@ Vacunacion {
     }
 
     public static void alta() throws FileNotFoundException {
-        Scanner s = new Scanner(new File("centrosVacunacion.txt"));
+        //Scanner s = new Scanner(new File("centrosVacunacion.txt"));
     }
 
     public static void baja() throws FileNotFoundException {
-        Scanner s = new Scanner(new File("cantrosVacunacion.txt"));
+        //Scanner s = new Scanner(new File("cantrosVacunacion.txt"));
     }
 
     public static void realizarAccion() throws FileNotFoundException {
